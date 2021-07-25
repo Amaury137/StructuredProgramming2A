@@ -24,6 +24,7 @@ int main(){
                 tempC[j]=C;
             }
             
+            
         }
         
     }
