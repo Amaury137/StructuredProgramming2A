@@ -57,6 +57,14 @@ void modify_variables_address(int*dir1 ,int*dir2, int multiplo ){
 //     return;
 // }
 
+void swap( int* ptr1, int* ptr2){
+        int temp = *ptr1; 
+        *ptr1 = *ptr2;
+        *ptr2 = temp;
+        return;
+        printf("Hola mundo");
+}
+
 //arrays -0-0-0-0-0-0-0-0-
 void fill_array(int array[], size_t size){
     for (size_t i = 0; i<size; i++){
@@ -93,3 +101,12 @@ Array* return_array( ){
         un_array_type->dir_array[1] = 15;
         return un_array_type;
 }
+
+
+//objects
+typedef struct utils{
+    int my_int;
+    void (*show_int_adress) (int* parameter);
+    void (*my_swap) (int* ptr1, int* ptr2);
+
+}UTILS;
