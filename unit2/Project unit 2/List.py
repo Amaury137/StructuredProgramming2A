@@ -16,9 +16,9 @@ if __name__ == "__main__":
     for i in range(0, len(tempF)):
         if (tempF[i]> -999):
             tempC.append(F_to_C(tempF[i]))
-    print(tempC)
-    print(max(tempC))
-    print(min(tempC))
+    print("temperatures in C°:",tempC)
+    print("the highest temperature is: ",max(tempC))
+    print("the lowest temperature is: ",min(tempC))
         
 
 

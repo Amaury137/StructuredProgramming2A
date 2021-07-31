@@ -10,7 +10,7 @@ if __name__ == "__main__":
     divition= int(argv[1])/int(argv[2])
 
     print("Your results are:")
-    print(addition)
-    print(substraction)
-    print(multiplication)
-    print(divition)
+    print("sumary: ", addition)
+    print("substraction: ",substraction)
+    print("multiplication: ",multiplication)
+    print("divition: ",divition)
