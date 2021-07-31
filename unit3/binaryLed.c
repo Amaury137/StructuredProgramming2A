@@ -13,35 +13,35 @@ int b=0;
 int c=0;
 int d=0;
 
-int number = 10;
+int number = 11;
 char array[4] = {8,4,2,1};
 
 
 void binaryLed(int num){
   
   int num2=num;
-  int num3=num;
-  int num4=num;
+  // int num3=num;
+  // int num4=num;
   
   if(num >= array[0]){
       a=1;
-      num2= num - array[0];
+      num2= num2 - array[0];
     }
   
   
    if(num2 >= array[1]){
       b=1;
-      num3 = num2-array[1];
+      num2 = num2-array[1];
     }
   
   
-    if(num3 >= array[2]){
+    if(num2 >= array[2]){
       c=1;
-      num4=num3-array[2];
+      num2=num2-array[2];
     }
 
   
-    if(num4 >= array[3]){
+    if(num2 >= array[3]){
       d=1;
     }
 }
